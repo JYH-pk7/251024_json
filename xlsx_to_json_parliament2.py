@@ -1,21 +1,32 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-xlsx_to_json_parliament.py  (v2: robust meetings aggregation)
-----------------------------------------------------------------
-Fix for missing `number_of_meetings` and `chasu` in meetings JSON by grouping on meeting id
-and taking the first non-empty value per field.
+xlsx_to_json_parliament2.py
+---------------------------
+Improved extraction for Meetings: derives `number_of_meetings` (회수) and `chasu` (차수)
+by scanning multiple columns (회의록구분/회의구분/위원회/기타 정보/안건 등) with regex
+when explicit columns ('회수', '차수') are empty or missing.
+
+Usage:
+  pip install pandas openpyxl
+  python xlsx_to_json_parliament2.py --excel "/path/to/회의록.xlsx" --outdir "./out"
+
+Outputs:
+  <base>_speeches.json
+  <base>_meetings.json
 """
 import argparse
 import hashlib
 import json
 import math
 import os
+import re
 from typing import Optional, List, Dict, Any
 
 import pandas as pd
 
 
+# ---------- utils ----------
 def _coerce_int(x) -> Optional[int]:
     if x is None:
         return None
@@ -31,6 +42,13 @@ def _coerce_int(x) -> Optional[int]:
     try:
         return int(float(s))
     except Exception:
+        # Try pure digits extraction
+        m = re.search(r"\d+", s)
+        if m:
+            try:
+                return int(m.group(0))
+            except Exception:
+                pass
         return None
 
 
@@ -74,6 +92,7 @@ def _safe_join_lines(values: List[Any]) -> Optional[str]:
     return "\n".join(parts) if parts else None
 
 
+# ---------- speeches ----------
 def build_speeches(df: pd.DataFrame) -> List[Dict[str, Any]]:
     required = ["회의번호", "발언자", "발언순번"]
     for c in required:
@@ -104,6 +123,33 @@ def build_speeches(df: pd.DataFrame) -> List[Dict[str, Any]]:
     return speeches
 
 
+# ---------- meetings ----------
+RE_MEETING = re.compile(r"제\s*(\d{1,5})\s*회")   # e.g., 제403회
+RE_CHASU   = re.compile(r"제\s*(\d{1,5})\s*차")   # e.g., 제1차
+
+def _derive_meeting_numbers_from_texts(texts: List[str]) -> Dict[str, Optional[int]]:
+    number_of_meetings = None
+    chasu = None
+    for t in texts:
+        if not t:
+            continue
+        m1 = RE_MEETING.search(t)
+        if m1 and number_of_meetings is None:
+            try:
+                number_of_meetings = int(m1.group(1))
+            except Exception:
+                pass
+        m2 = RE_CHASU.search(t)
+        if m2 and chasu is None:
+            try:
+                chasu = int(m2.group(1))
+            except Exception:
+                pass
+        if number_of_meetings is not None and chasu is not None:
+            break
+    return {"number_of_meetings": number_of_meetings, "chasu": chasu}
+
+
 def build_meetings(df: pd.DataFrame) -> List[Dict[str, Any]]:
     cols_map = {
         "meeting_category": "회의록구분",
@@ -112,24 +158,46 @@ def build_meetings(df: pd.DataFrame) -> List[Dict[str, Any]]:
         "commitee": "위원회",
         "number_of_meetings": "회수",
         "chasu": "차수",
-        "other_info": "기타 정보",
+        "other_info": "기타정보",
         "meeting_date": "회의일자",
     }
     present = {k: v for k, v in cols_map.items() if v in df.columns}
 
     meetings: List[Dict[str, Any]] = []
+
     if "회의번호" in df.columns:
         grouped = df.groupby("회의번호", dropna=False)
+
+        # Columns to scan with regex if explicit fields are empty/missing
+        scan_cols = [c for c in ["회의록구분", "회의구분", "위원회", "기타정보", "안건"] if c in df.columns]
+
         for _, g in grouped:
             rec: Dict[str, Any] = {}
+
+            # Fill straightforward fields from first non-empty
             for out_key, in_col in present.items():
-                first_val = _non_empty_first(g[in_col])
+                first_val = _non_empty_first(g[in_col]) if in_col in g.columns else None
                 if out_key in {"number_of_meetings", "chasu"}:
                     rec[out_key] = _coerce_int(first_val)
                 else:
                     rec[out_key] = _coerce_str(first_val)
+
+            # If number_of_meetings or chasu still None, derive via regex from multiple text columns
+            if rec.get("number_of_meetings") is None or rec.get("chasu") is None:
+                concat_texts: List[str] = []
+                for c in scan_cols:
+                    # Join unique non-empty strings from this column in the group
+                    vals = [str(v) for v in g[c].dropna().astype(str).unique() if str(v).strip()]
+                    concat_texts.extend(vals)
+                derived = _derive_meeting_numbers_from_texts(concat_texts)
+                if rec.get("number_of_meetings") is None and derived["number_of_meetings"] is not None:
+                    rec["number_of_meetings"] = derived["number_of_meetings"]
+                if rec.get("chasu") is None and derived["chasu"] is not None:
+                    rec["chasu"] = derived["chasu"]
+
             meetings.append(rec)
     else:
+        # Fallback: no meeting key, produce per-row (best-effort)
         for _, row in df.iterrows():
             rec: Dict[str, Any] = {}
             for out_key, in_col in present.items():
@@ -138,13 +206,21 @@ def build_meetings(df: pd.DataFrame) -> List[Dict[str, Any]]:
                     rec[out_key] = _coerce_int(val)
                 else:
                     rec[out_key] = _coerce_str(val)
+            # Try derive from text columns
+            scan_texts = [str(row.get(c)) for c in ["회의록구분", "회의구분", "위원회", "기타 정보", "안건"] if c in df.columns]
+            derived = _derive_meeting_numbers_from_texts([t for t in scan_texts if t and t != "None"])
+            if rec.get("number_of_meetings") is None and derived["number_of_meetings"] is not None:
+                rec["number_of_meetings"] = derived["number_of_meetings"]
+            if rec.get("chasu") is None and derived["chasu"] is not None:
+                rec["chasu"] = derived["chasu"]
             meetings.append(rec)
 
     return meetings
 
 
+# ---------- main ----------
 def main():
-    parser = argparse.ArgumentParser(description="회의록 엑셀을 speeches/meetings JSON으로 변환 (v2)")
+    parser = argparse.ArgumentParser(description="회의록 엑셀을 speeches/meetings JSON으로 변환 (regex 보강판)")
     parser.add_argument("--excel", required=True, help="입력 엑셀(.xlsx) 경로")
     parser.add_argument("--outdir", default=".", help="출력 디렉토리 (기본: 현재 폴더)")
     args = parser.parse_args()
