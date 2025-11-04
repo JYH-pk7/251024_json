@@ -15,7 +15,6 @@ build/
 node_modules/
 .DS_Store
 .vscode/
-out/
 
 # ----- REPLACE the following line(s) with the folder(s) you want to ignore -----
 # Example: if you want to ignore a folder named `myfolder` at the repository root,

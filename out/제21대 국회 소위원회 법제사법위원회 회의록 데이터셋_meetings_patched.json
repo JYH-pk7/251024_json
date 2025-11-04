@@ -1,0 +1,842 @@
+[
+  {
+    "meeting_id": 50158,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 381,
+    "chasu": 1,
+    "meeting_date": "2020년8월31일(월)"
+  },
+  {
+    "meeting_id": 50242,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 382,
+    "chasu": 1,
+    "meeting_date": "2020년9월22일(화)"
+  },
+  {
+    "meeting_id": 50262,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 382,
+    "chasu": 2,
+    "meeting_date": "2020년9월23일(수)"
+  },
+  {
+    "meeting_id": 50403,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 382,
+    "chasu": 1,
+    "meeting_date": "2020년11월10일(화)"
+  },
+  {
+    "meeting_id": 50428,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 382,
+    "chasu": 2,
+    "meeting_date": "2020년11월11일(수)"
+  },
+  {
+    "meeting_id": 50463,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 382,
+    "chasu": 3,
+    "meeting_date": "2020년11월16일(월)"
+  },
+  {
+    "meeting_id": 50481,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 382,
+    "chasu": 4,
+    "meeting_date": "2020년11월17일(화)"
+  },
+  {
+    "meeting_id": 50542,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 382,
+    "chasu": 5,
+    "meeting_date": "2020년11월25일(수)"
+  },
+  {
+    "meeting_id": 50551,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 382,
+    "chasu": 6,
+    "meeting_date": "2020년11월26일(목)"
+  },
+  {
+    "meeting_id": 50626,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 382,
+    "chasu": 7,
+    "meeting_date": "2020년12월4일(금)"
+  },
+  {
+    "meeting_id": 50644,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 382,
+    "chasu": 8,
+    "meeting_date": "2020년12월7일(월)"
+  },
+  {
+    "meeting_id": 50713,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 383,
+    "chasu": 1,
+    "meeting_date": "2020년12월24일(목)"
+  },
+  {
+    "meeting_id": 50717,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 383,
+    "chasu": 2,
+    "meeting_date": "2020년12월29일(화)"
+  },
+  {
+    "meeting_id": 50718,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 383,
+    "chasu": 3,
+    "meeting_date": "2020년12월30일(수)"
+  },
+  {
+    "meeting_id": 50720,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 383,
+    "chasu": 5,
+    "meeting_date": "2021년1월6일(수)"
+  },
+  {
+    "meeting_id": 50721,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 383,
+    "chasu": 4,
+    "meeting_date": "2021년1월5일(화)"
+  },
+  {
+    "meeting_id": 50725,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 383,
+    "chasu": 6,
+    "meeting_date": "2021년1월7일(목)"
+  },
+  {
+    "meeting_id": 50822,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 384,
+    "chasu": 1,
+    "meeting_date": "2021년2월23일(화)"
+  },
+  {
+    "meeting_id": 50845,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 384,
+    "chasu": 2,
+    "meeting_date": "2021년2월24일(수)"
+  },
+  {
+    "meeting_id": 50848,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 384,
+    "chasu": 1,
+    "meeting_date": "2021년2월25일(목)"
+  },
+  {
+    "meeting_id": 50868,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 385,
+    "chasu": 1,
+    "meeting_date": "2021년3월15일(월)"
+  },
+  {
+    "meeting_id": 50883,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 385,
+    "chasu": 1,
+    "meeting_date": "2021년3월16일(화)"
+  },
+  {
+    "meeting_id": 50915,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 385,
+    "chasu": 2,
+    "meeting_date": "2021년3월22일(월)"
+  },
+  {
+    "meeting_id": 50988,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 386,
+    "chasu": 1,
+    "meeting_date": "2021년4월27일(화)"
+  },
+  {
+    "meeting_id": 51072,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 388,
+    "chasu": 1,
+    "meeting_date": "2021년6월21일(월)"
+  },
+  {
+    "meeting_id": 51083,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 388,
+    "chasu": 2,
+    "meeting_date": "2021년6월22일(화)"
+  },
+  {
+    "meeting_id": 51093,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 388,
+    "chasu": 1,
+    "meeting_date": "2021년6월24일(목)"
+  },
+  {
+    "meeting_id": 51148,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 389,
+    "chasu": 1,
+    "meeting_date": "2021년7월15일(목)"
+  },
+  {
+    "meeting_id": 51164,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 389,
+    "chasu": 2,
+    "meeting_date": "2021년7월22일(목)"
+  },
+  {
+    "meeting_id": 51209,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 390,
+    "chasu": 2,
+    "meeting_date": "2021년8월24일(화)"
+  },
+  {
+    "meeting_id": 51220,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 390,
+    "chasu": 1,
+    "meeting_date": "2021년8월23일(월)"
+  },
+  {
+    "meeting_id": 51258,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 391,
+    "chasu": 1,
+    "meeting_date": "2021년9월8일(수)"
+  },
+  {
+    "meeting_id": 51305,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 391,
+    "chasu": 1,
+    "meeting_date": "2021년9월23일(목)"
+  },
+  {
+    "meeting_id": 51307,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 391,
+    "chasu": 1,
+    "meeting_date": "2021년9월24일(금)"
+  },
+  {
+    "meeting_id": 51451,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 391,
+    "chasu": 2,
+    "meeting_date": "2021년11월11일(목)"
+  },
+  {
+    "meeting_id": 51473,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 391,
+    "chasu": 3,
+    "meeting_date": "2021년11월12일(금)"
+  },
+  {
+    "meeting_id": 51517,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 391,
+    "chasu": 5,
+    "meeting_date": "2021년11월17일(수)"
+  },
+  {
+    "meeting_id": 51524,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 391,
+    "chasu": 4,
+    "meeting_date": "2021년11월16일(화)"
+  },
+  {
+    "meeting_id": 51649,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 391,
+    "chasu": 2,
+    "meeting_date": "2021년12월7일(화)"
+  },
+  {
+    "meeting_id": 51662,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 391,
+    "chasu": 3,
+    "meeting_date": "2021년12월8일(수)"
+  },
+  {
+    "meeting_id": 51728,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 392,
+    "chasu": 1,
+    "meeting_date": "2022년1월7일(금)"
+  },
+  {
+    "meeting_id": 51736,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 392,
+    "chasu": 1,
+    "meeting_date": "2022년1월10일(월)"
+  },
+  {
+    "meeting_id": 51796,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 394,
+    "chasu": 1,
+    "meeting_date": "2022년4월4일(월)"
+  },
+  {
+    "meeting_id": 51804,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 395,
+    "chasu": 1,
+    "meeting_date": "2022년4월14일(목)"
+  },
+  {
+    "meeting_id": 51815,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 395,
+    "chasu": 2,
+    "meeting_date": "2022년4월18일(월)"
+  },
+  {
+    "meeting_id": 51816,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 395,
+    "chasu": 3,
+    "meeting_date": "2022년4월19일(화)"
+  },
+  {
+    "meeting_id": 51818,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 395,
+    "chasu": 4,
+    "meeting_date": "2022년4월20일(수)"
+  },
+  {
+    "meeting_id": 51830,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 395,
+    "chasu": 5,
+    "meeting_date": "2022년4월25일(월)"
+  },
+  {
+    "meeting_id": 51846,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 395,
+    "chasu": 6,
+    "meeting_date": "2022년4월26일(화)"
+  },
+  {
+    "meeting_id": 51929,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 397,
+    "chasu": 1,
+    "meeting_date": "2022년5월20일(금)"
+  },
+  {
+    "meeting_id": 51948,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 397,
+    "chasu": 2,
+    "meeting_date": "2022년5월25일(수)"
+  },
+  {
+    "meeting_id": 52074,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 399,
+    "chasu": 1,
+    "meeting_date": "2022년8월23일(화)"
+  },
+  {
+    "meeting_id": 52075,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 399,
+    "chasu": 1,
+    "meeting_date": "2022년8월24일(수)"
+  },
+  {
+    "meeting_id": 52161,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 400,
+    "chasu": 1,
+    "meeting_date": "2022년9월22일(목)"
+  },
+  {
+    "meeting_id": 52261,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 400,
+    "chasu": 2,
+    "meeting_date": "2022년10월26일(수)"
+  },
+  {
+    "meeting_id": 52342,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 400,
+    "chasu": 1,
+    "meeting_date": "2022년11월9일(수)"
+  },
+  {
+    "meeting_id": 52348,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 400,
+    "chasu": 2,
+    "meeting_date": "2022년11월10일(목)"
+  },
+  {
+    "meeting_id": 52409,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 400,
+    "chasu": 3,
+    "meeting_date": "2022년11월16일(수)"
+  },
+  {
+    "meeting_id": 52473,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 400,
+    "chasu": 4,
+    "meeting_date": "2022년11월23일(수)"
+  },
+  {
+    "meeting_id": 52522,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 400,
+    "chasu": 5,
+    "meeting_date": "2022년11월28일(월)"
+  },
+  {
+    "meeting_id": 52553,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 400,
+    "chasu": 1,
+    "meeting_date": "2022년12월1일(목)"
+  },
+  {
+    "meeting_id": 52583,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 400,
+    "chasu": 6,
+    "meeting_date": "2022년12월5일(월)"
+  },
+  {
+    "meeting_id": 52590,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 400,
+    "chasu": 7,
+    "meeting_date": "2022년12월6일(화)"
+  },
+  {
+    "meeting_id": 52720,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 403,
+    "chasu": 1,
+    "meeting_date": "2023년2월20일(월)"
+  },
+  {
+    "meeting_id": 52730,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 403,
+    "chasu": 2,
+    "meeting_date": "2023년2월21일(화)"
+  },
+  {
+    "meeting_id": 52742,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 403,
+    "chasu": 1,
+    "meeting_date": "2023년2월22일(수)"
+  },
+  {
+    "meeting_id": 52801,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 404,
+    "chasu": 1,
+    "meeting_date": "2023년3월22일(수)"
+  },
+  {
+    "meeting_id": 52824,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 404,
+    "chasu": 1,
+    "meeting_date": "2023년3월30일(목)"
+  },
+  {
+    "meeting_id": 52848,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 405,
+    "chasu": 1,
+    "meeting_date": "2023년4월6일(목)"
+  },
+  {
+    "meeting_id": 52855,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 405,
+    "chasu": 2,
+    "meeting_date": "2023년4월10일(월)"
+  },
+  {
+    "meeting_id": 52857,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 405,
+    "chasu": 3,
+    "meeting_date": "2023년4월11일(화)"
+  },
+  {
+    "meeting_id": 52877,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 405,
+    "chasu": 1,
+    "meeting_date": "2023년4월19일(수)"
+  },
+  {
+    "meeting_id": 52944,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 406,
+    "chasu": 1,
+    "meeting_date": "2023년5월22일(월)"
+  },
+  {
+    "meeting_id": 52952,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 406,
+    "chasu": 1,
+    "meeting_date": "2023년5월24일(수)"
+  },
+  {
+    "meeting_id": 52984,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 407,
+    "chasu": 1,
+    "meeting_date": "2023년6월15일(목)"
+  },
+  {
+    "meeting_id": 52989,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 407,
+    "chasu": 1,
+    "meeting_date": "2023년6월19일(월)"
+  },
+  {
+    "meeting_id": 53040,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 407,
+    "chasu": 2,
+    "meeting_date": "2023년6월28일(수)"
+  },
+  {
+    "meeting_id": 53074,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 408,
+    "chasu": 1,
+    "meeting_date": "2023년7월13일(목)"
+  },
+  {
+    "meeting_id": 53171,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 409,
+    "chasu": 1,
+    "meeting_date": "2023년8월30일(수)"
+  },
+  {
+    "meeting_id": 53173,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 409,
+    "chasu": 1,
+    "meeting_date": "2023년8월31일(목)"
+  },
+  {
+    "meeting_id": 53178,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-예산결산기금심사소위원회",
+    "number_of_meetings": 409,
+    "chasu": 2,
+    "meeting_date": "2023년8월31일(목)"
+  },
+  {
+    "meeting_id": 53211,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제2소위원회",
+    "number_of_meetings": 410,
+    "chasu": 1,
+    "meeting_date": "2023년9월11일(월)"
+  },
+  {
+    "meeting_id": 53214,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 410,
+    "chasu": 1,
+    "meeting_date": "2023년9월12일(화)"
+  },
+  {
+    "meeting_id": 53259,
+    "meeting_category": "국회",
+    "deasu": "21",
+    "meeting_specification": "소위원회",
+    "commitee": "법제사법위원회-법안심사제1소위원회",
+    "number_of_meetings": 410,
+    "chasu": 2,
+    "meeting_date": "2023년9월21일(목)"
+  }
+]
