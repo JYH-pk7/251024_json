@@ -15,11 +15,16 @@ build/
 node_modules/
 .DS_Store
 .vscode/
+./out/
+./webcrowling/
+
+
 
 # ----- REPLACE the following line(s) with the folder(s) you want to ignore -----
 # Example: if you want to ignore a folder named `myfolder` at the repository root,
 # add a line `myfolder/` (trailing slash indicates a directory).
-REPLACE_WITH_FOLDER/
+out/
+webcrowling/
 
 # If that folder is already tracked by Git, untrack it with:
 #   git rm -r --cached REPLACE_WITH_FOLDER
