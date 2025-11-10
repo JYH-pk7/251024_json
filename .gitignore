@@ -25,6 +25,8 @@ node_modules/
 # add a line `myfolder/` (trailing slash indicates a directory).
 out/
 webcrowling/
+using_openai_api/
+usinged_files/
 
 # If that folder is already tracked by Git, untrack it with:
 #   git rm -r --cached REPLACE_WITH_FOLDER
